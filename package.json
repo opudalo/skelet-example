@@ -1,0 +1,22 @@
+{
+  "name": "skelet-example",
+  "version": "1.0.0",
+  "description": "skelet, bones, boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony index"
+  },
+  "bin": {
+    "skelet": "./index.js"
+  },
+  "author": "opudalo",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^6.0.4",
+    "inquirer": "^0.11.4",
+    "lodash.template": "^4.0.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
